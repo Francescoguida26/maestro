@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bottiglie da Maestro · Le Passate degli Orti della Musica - Gustarosso</title>
+<meta name="description" content="Le Passate da Maestro di Gustarosso, nate agli Orti della Musica di Sarno in omaggio a Peppe Vessicchio e Fofò Ferriere: storia, ricette e il ricettario gratuito da scaricare, con la ricetta del Maestro Franco Pepe.">
+<meta property="og:title" content="Bottiglie da Maestro · Le Passate degli Orti della Musica">
+<meta property="og:description" content="Storia, ricette e il ricettario gratuito da scaricare, con la ricetta del Maestro Franco Pepe.">
+<meta property="og:image" content="img/confezione-regalo.jpg">
+<link rel="icon" href="https://www.gustarosso.it/wp-content/uploads/2024/11/cropped-favicon-270x270.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Cormorant+SC:wght@600&family=Roboto+Serif:opsz,wght@8..144,300..500&display=swap" rel="stylesheet">
+<!--
+  PAGINA UNICA, SENZA MENU. Stile allineato a gustarosso.it.
+  Il font Manrope è un segnaposto: il font reale del sito non era leggibile dall'esterno.
+-->
+<style>
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:#fff;font-family:'Manrope',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+/* --- piè di pagina --- */
+.gr-foot{background:#101010;color:#a9a9a9;font-size:15px;line-height:1.8}
+.gr-foot a{color:#a9a9a9;text-decoration:none}.gr-foot a:hover{color:#ffda2b}
+.gr-foot .in{max-width:1140px;margin:0 auto;padding:90px 20px 50px;display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+.gr-foot h5{color:#fff;font-size:20px;margin:0 0 20px;font-weight:700}
+.gr-foot ul{list-style:none;margin:0;padding:0}
+.gr-foot .brand img{height:60px;width:auto;margin-bottom:20px}
+.gr-foot .soc{display:flex;gap:10px;margin-top:20px}
+.gr-foot .soc a{width:42px;height:42px;border-radius:50%;background:#222;color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700}
+.gr-foot .soc a:hover{background:#ffda2b;color:#101010}
+.gr-foot .bot{border-top:1px solid #262626}
+.gr-foot .bot .in2{max-width:1140px;margin:0 auto;padding:24px 20px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:14px}
+@media(max-width:900px){.gr-foot .in{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.gr-foot .in{grid-template-columns:1fr;padding-top:60px}}
+/* lo stile della pagina */
+/* ==========================================================================
+   Bottiglie da Maestro · stile allineato a gustarosso.it (tema Agrimo + Elementor)
+   Colori presi dal kit globale Elementor del sito (post-8.css).
+   Tutto è racchiuso in .gr-bdm: non tocca header, footer e resto del sito.
+   ========================================================================== */
+.gr-bdm{
+  --gr-yellow:#ffda2b;   /* primary   */
+  --gr-black:#101010;    /* secondary */
+  --gr-text:#666666;     /* text      */
+  --gr-red:#C12A21;      /* accent    */
+  --gr-white:#ffffff;
+  --gr-cream:#F8F7F0;
+  --gr-line:#e7e4d8;
+  --gr-green:#3b7357;
+  --gr-radius:30px;
+  --gr-container:1140px;
+  color:var(--gr-text);
+  font-size:16px;line-height:1.75;
+  overflow-x:clip;
+}
+.gr-bdm *,.gr-bdm *::before,.gr-bdm *::after{box-sizing:border-box}
+.gr-bdm img{max-width:100%;height:auto;display:block}
+.gr-bdm a{color:var(--gr-red);text-decoration:none}
+.gr-bdm a:hover{color:var(--gr-black)}
+.gr-bdm p{margin:0 0 18px}
+.gr-bdm h1,.gr-bdm h2,.gr-bdm h3,.gr-bdm h4{color:var(--gr-black);line-height:1.2;margin:0 0 18px;font-weight:700}
+.gr-bdm h2{font-size:clamp(30px,4.2vw,46px);letter-spacing:-.01em}
+.gr-bdm h3{font-size:24px}
+.gr-bdm h4{font-size:14px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+.gr-bdm h2 em,.gr-bdm h1 em{font-style:normal;color:var(--gr-red)}
+.gr-bdm .gr-container{max-width:var(--gr-container);margin:0 auto;padding:0 20px}
+.gr-bdm .gr-sec{padding:100px 0}
+.gr-bdm .gr-sec.cream{background:var(--gr-cream)}
+.gr-bdm .gr-sec.dark{background:var(--gr-black);color:#bdbdbd}
+.gr-bdm .dark h2,.gr-bdm .dark h3{color:#fff}
+.gr-bdm .dark h2 em{color:var(--gr-yellow)}
+.gr-bdm .dark .lead{color:#fff}
+.gr-bdm .center{text-align:center}
+.gr-bdm .narrow{max-width:760px;margin-left:auto;margin-right:auto}
+@media(max-width:767px){.gr-bdm .gr-sec{padding:64px 0}}
+
+/* Sottotitolo a pillola, come .pbmit-heading-subheading del tema */
+.gr-bdm .gr-sub{display:inline-flex;align-items:center;gap:8px;background:var(--gr-white);color:var(--gr-black);border-radius:var(--gr-radius);padding:3px 20px 3px 14px;font-size:14px;font-weight:600;line-height:1.9;margin:0 0 16px}
+.gr-bdm .gr-sub::before{content:"";width:16px;height:16px;flex:0 0 16px;background:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23C12A21' d='M21 3C11 3 4 8 4 16c0 1.6.4 3 1 4.2C6.6 15 10 11 15 9c-4 2.6-6.8 6.4-8 11 1 .6 2.4 1 4 1 8 0 10-9 10-18z'/%3E%3C/svg%3E")}
+.gr-bdm .cream .gr-sub,.gr-bdm .gr-sub.on-white{background:var(--gr-cream)}
+.gr-bdm .cream .gr-sub.on-white{background:var(--gr-white)}
+.gr-bdm .dark .gr-sub{background:rgba(255,255,255,.08);color:#fff}
+.gr-bdm .lead{font-size:clamp(18px,2vw,21px);line-height:1.6;color:var(--gr-black);font-weight:500}
+.gr-bdm .small{font-size:14px;color:#8a8a8a}
+.gr-bdm .cite{font-size:13px;color:#8a8a8a;font-style:italic}
+
+/* Pulsanti a pillola, maiuscolo, come quelli del tema */
+.gr-bdm .btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.gr-bdm .center .btns{justify-content:center}
+.gr-bdm .gr-btn{display:inline-flex;align-items:center;gap:10px;padding:17px 34px;border-radius:var(--gr-radius);font-size:13px;font-weight:700;letter-spacing:.65px;text-transform:uppercase;line-height:1.3;border:2px solid transparent;transition:background .25s,color .25s,border-color .25s}
+.gr-bdm .gr-btn.red{background:var(--gr-red);color:#fff}
+.gr-bdm .gr-btn.red:hover{background:var(--gr-black);color:#fff}
+.gr-bdm .gr-btn.black{background:var(--gr-black);color:#fff}
+.gr-bdm .gr-btn.black:hover{background:var(--gr-yellow);color:var(--gr-black)}
+.gr-bdm .gr-btn.line{border-color:var(--gr-black);color:var(--gr-black)}
+.gr-bdm .gr-btn.line:hover{background:var(--gr-black);color:#fff}
+.gr-bdm .dark .gr-btn.line,.gr-bdm .gr-title .gr-btn.line{border-color:rgba(255,255,255,.6);color:#fff}
+.gr-bdm .dark .gr-btn.line:hover,.gr-bdm .gr-title .gr-btn.line:hover{background:var(--gr-yellow);border-color:var(--gr-yellow);color:var(--gr-black)}
+.gr-bdm .dark .gr-btn.red:hover{background:var(--gr-yellow);color:var(--gr-black)}
+.gr-bdm .gr-btn .arr{display:inline-block;width:16px;height:16px;background:currentColor;-webkit-mask:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 17 17 7M9 7h8v8' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");mask:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 17 17 7M9 7h8v8' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+
+/* Griglie */
+.gr-bdm .split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.gr-bdm .split.top{align-items:start}
+@media(max-width:1024px){.gr-bdm .split{gap:44px}}
+@media(max-width:900px){.gr-bdm .split{grid-template-columns:1fr}}
+.gr-bdm .pic{border-radius:20px;overflow:hidden;width:100%}
+.gr-bdm .pic.ill{background:var(--gr-cream)}
+.gr-bdm .cream .pic.ill{background:#fff}
+.gr-bdm figure{margin:0}
+.gr-bdm figcaption{font-size:13px;color:#8a8a8a;margin-top:10px}
+
+/* Le tre passate */
+.gr-bdm .pcs{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:50px}
+@media(max-width:900px){.gr-bdm .pcs{grid-template-columns:1fr}}
+.gr-bdm .pc{background:#fff;border-radius:20px;padding:36px 32px;transition:transform .3s,box-shadow .3s}
+.gr-bdm .pc:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(16,16,16,.08)}
+.gr-bdm .pc-ill{height:110px;display:flex;align-items:flex-end;gap:6px;margin-bottom:22px}
+.gr-bdm .pc-ill img{height:100%;width:auto}
+.gr-bdm .pc-ill img+img{height:70%}
+.gr-bdm .pc .tempo{display:inline-block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--gr-black);background:var(--gr-yellow);border-radius:var(--gr-radius);padding:2px 12px;margin-bottom:12px}
+.gr-bdm .pc h3{margin-bottom:6px}
+.gr-bdm .pc-comp{font-weight:600;color:var(--gr-red)}
+.gr-bdm .pc-use{font-size:14.5px;border-top:1px solid var(--gr-line);padding-top:16px;margin:0}
+.gr-bdm .pc-use b{color:var(--gr-black)}
+
+/* Dedica */
+.gr-bdm .dedica .names{font-size:20px;line-height:1.7;color:var(--gr-black);margin:10px 0 18px}
+.gr-bdm .dedica .names i{font-style:normal;color:var(--gr-text);font-size:16px}
+
+/* Citazioni */
+.gr-bdm .quote{position:relative;background:var(--gr-cream);border-radius:20px;padding:30px 30px 26px 80px;margin:30px 0 0;font-size:19px;line-height:1.55;color:var(--gr-black);font-weight:500}
+.gr-bdm .cream .quote{background:#fff}
+.gr-bdm .quote::before{content:"\201C";position:absolute;left:24px;top:8px;font-size:84px;line-height:1;color:var(--gr-red);font-family:Georgia,serif}
+.gr-bdm .quote small{display:block;margin-top:12px;font-size:13px;font-weight:400;color:#8a8a8a}
+
+/* Numeri / fatti */
+.gr-bdm .facts{margin:26px 0 0}
+.gr-bdm .facts div{display:flex;gap:20px;align-items:baseline;border-top:1px solid var(--gr-line);padding:16px 0}
+.gr-bdm .facts b{flex:0 0 84px;font-size:26px;line-height:1;color:var(--gr-red)}
+.gr-bdm .facts span{color:var(--gr-text)}
+.gr-bdm .orti-logo{width:110px;margin-top:26px}
+
+/* Ricettario */
+.gr-bdm .book{display:grid;grid-template-columns:300px 1fr;gap:70px;align-items:center}
+@media(max-width:820px){.gr-bdm .book{grid-template-columns:1fr;gap:40px}.gr-bdm .book .cov{max-width:260px}}
+.gr-bdm .cov{border-radius:8px;box-shadow:0 30px 60px rgba(16,16,16,.25)}
+.gr-bdm .dentro{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:start;margin-top:20px}
+@media(max-width:900px){.gr-bdm .dentro{grid-template-columns:1fr}}
+.gr-bdm .capitoli{list-style:none;margin:0;padding:0}
+.gr-bdm .capitoli li{display:grid;grid-template-columns:130px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--gr-line)}
+.gr-bdm .capitoli b{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--gr-red);padding-top:2px}
+.gr-bdm .capitoli span{color:var(--gr-black);font-weight:600}
+.gr-bdm .capitoli small{display:block;color:var(--gr-text);font-weight:400;font-size:14px;margin-top:2px}
+@media(max-width:520px){.gr-bdm .capitoli li{grid-template-columns:1fr;gap:2px}}
+.gr-bdm .prev{display:grid;gap:24px}
+.gr-bdm .prev img{border-radius:12px;box-shadow:0 18px 40px rgba(16,16,16,.12)}
+.gr-bdm .prev2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+
+/* Franco Pepe */
+.gr-bdm .ospite{display:inline-block;border-left:4px solid var(--gr-yellow);padding:4px 0 4px 18px;margin:4px 0 22px}
+.gr-bdm .ospite small{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.8px;color:var(--gr-yellow);font-weight:700}
+.gr-bdm .ospite b{display:block;font-size:clamp(32px,4vw,44px);line-height:1.1;color:#fff}
+
+/* Fascia CTA gialla */
+.gr-bdm .gr-cta{background:var(--gr-yellow);padding:70px 0}
+.gr-bdm .gr-cta .gr-container{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.gr-bdm .gr-cta h2{margin:0 0 6px}
+.gr-bdm .gr-cta h2 em{color:var(--gr-red)}
+.gr-bdm .gr-cta p{color:var(--gr-black);margin:0;max-width:560px}
+.gr-bdm .gr-cta .btns{margin-top:0}
+
+/* Ricette (accordion) */
+.gr-bdm .rc{background:#fff;border-radius:16px;margin-bottom:14px;overflow:hidden}
+.gr-bdm .rc summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto 28px;gap:18px;align-items:center;padding:20px 26px;min-height:64px}
+.gr-bdm .rc summary::-webkit-details-marker{display:none}
+.gr-bdm .rc summary::after{content:"+";width:28px;height:28px;border-radius:50%;background:var(--gr-black);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;line-height:1;transition:background .2s}
+.gr-bdm .rc[open] summary::after{content:"\2212";background:var(--gr-red)}
+.gr-bdm .rc summary:hover::after{background:var(--gr-red)}
+.gr-bdm .rc summary:focus-visible{outline:2px solid var(--gr-red);outline-offset:-2px}
+.gr-bdm .tag{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gr-black);background:var(--gr-cream);border-radius:var(--gr-radius);padding:4px 14px;white-space:nowrap;justify-self:start}
+.gr-bdm .rt{font-size:19px;font-weight:700;color:var(--gr-black);line-height:1.3}
+.gr-bdm .rm{font-size:14px;color:var(--gr-text);white-space:nowrap}
+.gr-bdm .rm i{font-style:normal;color:var(--gr-red);font-weight:600}
+@media(max-width:700px){.gr-bdm .rc summary{grid-template-columns:1fr 28px;row-gap:8px}.gr-bdm .rc summary .tag{grid-column:1}.gr-bdm .rc summary .rt,.gr-bdm .rc summary .rm{grid-column:1}.gr-bdm .rc summary::after{grid-row:1;grid-column:2}}
+.gr-bdm .rb{padding:4px 26px 28px;border-top:1px solid var(--gr-line)}
+.gr-bdm .rsub{font-size:17px;font-style:italic;color:var(--gr-black);margin:18px 0 4px}
+.gr-bdm .rgrid{display:grid;grid-template-columns:1fr 1.6fr;gap:36px;margin-top:18px}
+@media(max-width:700px){.gr-bdm .rgrid{grid-template-columns:1fr;gap:20px}}
+.gr-bdm .org{list-style:none;padding:0;margin:0}
+.gr-bdm .org li{border-bottom:1px dashed var(--gr-line);padding:6px 0 6px 20px;position:relative;font-size:15px}
+.gr-bdm .org li::before{content:"";position:absolute;left:0;top:15px;width:8px;height:8px;border-radius:50%;background:var(--gr-red)}
+.gr-bdm .org b{color:var(--gr-black)}
+.gr-bdm .exe{list-style:none;padding:0;margin:0}
+.gr-bdm .exe li{display:flex;gap:14px;padding:8px 0;font-size:15px}
+.gr-bdm .nh{flex:0 0 28px;height:28px;border-radius:50%;background:var(--gr-yellow);color:var(--gr-black);font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.gr-bdm .sci{background:var(--gr-cream);border-radius:14px;padding:18px 22px;margin-top:22px}
+.gr-bdm .sci h4{color:var(--gr-green)}
+.gr-bdm .sci p{margin:0;font-size:15px}
+.gr-bdm .asc{font-size:15px;margin:16px 0 0}
+.gr-bdm .asc span{color:var(--gr-red)}
+.gr-bdm .asc b{color:var(--gr-black)}
+.gr-bdm .nota{font-style:italic;color:var(--gr-red);margin:14px 0 0}
+
+/* Galleria e video */
+.gr-bdm .vid{position:relative;width:100%;aspect-ratio:16/9;border-radius:20px;overflow:hidden;background:#000}
+.gr-bdm .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.gr-bdm .gal{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:50px}
+@media(max-width:767px){.gr-bdm .gal{grid-template-columns:repeat(2,1fr);gap:14px}}
+.gr-bdm .gal img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:20px;background:#fff}
+.gr-bdm .gal img.ill{object-fit:contain}
+
+/* Rassegna stampa */
+.gr-bdm .prs{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:50px}
+@media(max-width:900px){.gr-bdm .prs{grid-template-columns:1fr}}
+.gr-bdm .pr{display:flex;flex-direction:column;gap:10px;background:var(--gr-cream);border-radius:20px;padding:30px;color:var(--gr-text);transition:background .25s,transform .25s}
+.gr-bdm .pr:hover{background:var(--gr-black);transform:translateY(-4px)}
+.gr-bdm .pr .src{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--gr-red)}
+.gr-bdm .prt{font-size:18px;font-weight:700;line-height:1.35;color:var(--gr-black)}
+.gr-bdm .pr .go{margin-top:auto;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gr-black)}
+.gr-bdm .pr:hover .prt,.gr-bdm .pr:hover .go{color:#fff}
+.gr-bdm .pr:hover .src{color:var(--gr-yellow)}
+
+/* Regala */
+.gr-bdm .gift{position:relative;background:#101010 center/cover no-repeat;padding:120px 0;text-align:center;color:#ddd}
+.gr-bdm .gift::before{content:"";position:absolute;inset:0;background:rgba(16,16,16,.72)}
+.gr-bdm .gift .gr-container{position:relative}
+.gr-bdm .gift h2{color:#fff}
+.gr-bdm .gift h2 em{color:var(--gr-yellow)}
+.gr-bdm .gift .lead{color:#fff;max-width:680px;margin:0 auto}
+
+/* Barra in alto: solo i due loghi, senza menu (come il file di riferimento) */
+.gr-bdm .gr-top{background:#231d19;position:relative;z-index:10}
+.gr-bdm .gr-top .gr-container{display:flex;align-items:center;height:70px}
+.gr-bdm .gr-top .lg{width:132px}
+.gr-bdm .gr-top .lgo{display:flex;align-items:center;margin-left:18px;padding-left:16px;border-left:1px solid #4a3f36}
+.gr-bdm .gr-top .lgo img{height:50px;width:auto}
+
+/* Apertura scura con titolo serif (come il file di riferimento) */
+.gr-bdm .gr-hero{background:#1B1512;color:#d8ccb8;padding:60px 0 68px;font-family:'Roboto Serif',Georgia,serif;font-size:17px;line-height:1.62}
+.gr-bdm .gr-hero .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+@media(max-width:860px){.gr-bdm .gr-hero .grid{grid-template-columns:1fr}}
+.gr-bdm .gr-hero .h-orti{height:110px;width:auto;margin-bottom:18px}
+.gr-bdm .gr-hero .h-eyebrow{display:block;font-family:'Cormorant SC',Georgia,serif;font-weight:600;font-size:15px;letter-spacing:.2em;color:#D6BC85;margin:0 0 10px}
+.gr-bdm .gr-hero h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(52px,9vw,96px);line-height:.92;color:#f3e9d8;margin:0 0 18px;letter-spacing:0}
+.gr-bdm .gr-hero h1 em{font-style:italic;color:#E2C48A}
+.gr-bdm .gr-hero .h-lead{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:clamp(21px,2.6vw,26px);line-height:1.35;color:#efe6d6}
+.gr-bdm .gr-hero p{color:#d8ccb8}
+.gr-bdm .h-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.gr-bdm .h-btn{display:inline-flex;align-items:center;min-height:48px;padding:0 26px;border-radius:999px;font-family:'Cormorant SC',Georgia,serif;font-weight:600;font-size:17px;letter-spacing:.06em;text-decoration:none;border:1px solid transparent;transition:background .2s}
+.gr-bdm .h-btn.red{background:#E1261C;color:#fff}
+.gr-bdm .h-btn.red:hover{background:#B81D15;color:#fff}
+.gr-bdm .h-btn.ghost{border-color:#D6BC85;color:#D6BC85}
+.gr-bdm .h-btn.ghost:hover{background:rgba(214,188,133,.12);color:#D6BC85}
+.gr-bdm .h-fig{max-width:420px;margin:0 auto}
+.gr-bdm .h-fig img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;border-top:2px solid #D6BC85;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.gr-bdm .h-fig figcaption{color:#b7a892;font-style:italic}
+@media(max-width:600px){.gr-bdm .gr-top .lg{width:112px}.gr-bdm .gr-top .lgo img{height:42px}}
+
+</style>
+</head>
+<body>
+
+<!-- ===== Testata: loghi, nessun menu ===== -->
+<header class="gr-bdm"><div class="gr-top"><div class="gr-container"><img class="lg" src="img/logo-gustarosso-bianco.svg" alt="Gustarosso"><span class="lgo"><img src="img/logo-orti-bianco.svg" alt="Gli Orti della Musica"></span></div></div></header>
+
+<main id="content">
+<div class="gr-bdm">
+
+<!-- Apertura -->
+<section class="gr-hero" id="inizio">
+  <div class="gr-container grid">
+    <div>
+      <img class="h-orti" src="img/logo-orti-bianco.svg" alt="Gli Orti della Musica">
+      <span class="h-eyebrow">Le Passate da Maestro · Sarno</span>
+      <h1>Bottiglie<br><em>da Maestro</em></h1>
+      <p class="h-lead">C’è chi regala bollicine. Noi regaliamo armonia.</p>
+      <p>Avete in mano una passata nata a Sarno, agli Orti della Musica, dove i pomodori crescono immersi in frequenze armonico-naturali. È un omaggio a due Maestri, Peppe Vessicchio e Fofò Ferriere, e un regalo per chi la apre: qui trovate la sua storia, le ricette, i video, la stampa e il ricettario da scaricare, con la ricetta del Maestro Franco Pepe.</p>
+      <div class="h-btns"><a class="h-btn red" href="ricettario-bottiglie-da-maestro.pdf" download>Scarica il ricettario</a><a class="h-btn ghost" href="#ricette">Vai alle ricette</a></div>
+    </div>
+    <figure class="h-fig">
+      <img src="img/confezione-regalo.jpg" alt="La confezione Passata da Maestro con il fiocco rosso: dalla finestra si vedono Adagio di Fofò, Piccerillo e Mommò" width="1200" height="1500">
+      <figcaption>Adagio di Fofò, Piccerillo e Mommò nella confezione da Maestro.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- Le tre passate -->
+<section class="gr-sec cream" id="passate">
+  <div class="gr-container">
+    <div class="center narrow">
+      <span class="gr-sub">Le Passate da Maestro</span>
+      <h2>Tre bottiglie, <em>tre tempi</em></h2>
+      <p>Come in una partitura, ogni passata ha il suo carattere: Allegro, Adagio, Rondò. Ognuna nasce dall’unione di due antiche varietà campane.</p>
+    </div>
+    <div class="pcs">
+      <article class="pc" id="mommo">
+        <div class="pc-ill"><img src="img/ico-pomodoro-lungo.svg" alt=""><img src="img/ico-datterino.svg" alt=""></div>
+        <span class="tempo">Allegro</span><h3>Mommò</h3>
+        <p class="pc-comp">Passata di pomodoro lungo e datterino</p>
+        <p>Dolce, rotonda, immediata. Il datterino porta zuccheri e morbidezza, il pomodoro lungo struttura e colore.</p>
+        <p class="pc-use"><b>Per:</b> sughi rapidi, pizza, piatti con le uova, preparazioni a crudo o quasi.<br><b>Cottura:</b> breve, 8–12 minuti.</p>
+      </article>
+      <article class="pc" id="adagio">
+        <div class="pc-ill"><img src="img/ico-pomodoro-lungo.svg" alt=""><img src="img/ico-basilico.svg" alt=""></div>
+        <span class="tempo">Adagio</span><h3>Adagio di Fofò</h3>
+        <p class="pc-comp">Passata di pomodoro lungo con basilico</p>
+        <p>Profumata e piena. Il nome viene da un consiglio di Fofò Ferriere: una bollitura lenta e costante, «quasi un adagio».</p>
+        <p class="pc-use"><b>Per:</b> sughi con la carne, parmigiana, polpette e, quando c’è tempo, il ragù.<br><b>Cottura:</b> bollore lento e costante, da 20 minuti in su.</p>
+      </article>
+      <article class="pc" id="piccerillo">
+        <div class="pc-ill"><img src="img/ico-pomodoro-lungo.svg" alt=""><img src="img/ico-pomodorino.svg" alt=""></div>
+        <span class="tempo">Rondò</span><h3>Piccerillo</h3>
+        <p class="pc-comp">Passata di pomodoro lungo e pomodorino</p>
+        <p>Vivace e sapida, con la nota brillante e leggermente acidula del pomodorino. «Piccerillo», in napoletano, è il piccolino.</p>
+        <p class="pc-use"><b>Per:</b> sughi di mare e di magro, piatti di festa, gratinati.<br><b>Cottura:</b> breve e vivace, 6–10 minuti.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Dedica -->
+<section class="gr-sec dedica center" id="maestri" style="padding-bottom:40px">
+  <div class="gr-container narrow">
+    <span class="gr-sub on-white">Dedica</span>
+    <h2>A due <em>Maestri</em></h2>
+    <p class="names"><b>Peppe Vessicchio</b> · <i>Napoli, 1956 – Roma, 2025</i><br><b>Raffaele «Fofò» Ferriere</b> · <i>scomparso nel luglio 2026</i></p>
+    <p class="lead">che hanno insegnato ai pomodori ad ascoltare, e a noi ad aspettare.</p>
+  </div>
+</section>
+
+<!-- Peppe Vessicchio -->
+<section class="gr-sec" style="padding-top:40px">
+  <div class="gr-container split top">
+    <div>
+      <span class="gr-sub on-white">Il Maestro</span>
+      <h2>Peppe Vessicchio <em>1956–2025</em></h2>
+      <p class="lead">Per l’Italia era la bacchetta di Sanremo. Per i contadini di Sarno era un amico che arrivava in campagna con le domande giuste.</p>
+      <p>Arrangiatore, compositore e direttore d’orchestra, ha attraversato circa trenta edizioni del Festival di Sanremo. Accanto al palco coltivava un’altra domanda: le vibrazioni della musica possono dialogare con la materia viva? Ne sono nati il libro <i>La musica fa crescere i pomodori</i> (Rizzoli, 2017, con Angelo Carotenuto) e il metodo Freman, Frequenze e Musica Armonico-Naturale.</p>
+      <p>La ricerca sul pomodoro lo portò alla cooperativa DANIcoop di Sarno, guidata da Paolo Ruggiero: qui, ha scritto Marco Contursi sul sito di Luciano Pignataro, aveva trovato «una seconda famiglia». Con Paolo ed Edoardo Ruggiero ha condiviso l’idea degli Orti della Musica. È scomparso a Roma l’8 novembre 2025; <i>Piantalo 2026</i> gli è stato dedicato, con un murale agli Orti.</p>
+      <blockquote class="quote">«Si parla sempre della lunghezza della vita, io penso alla sua larghezza, può avere una tridimensionalità.»<small>Peppe Vessicchio, in un’intervista a Gambero Rosso, ripresa in «I ricordi di Peppe Vessicchio», gamberorosso.it</small></blockquote>
+    </div>
+    <div>
+      <img class="pic ill" src="img/ill-maestro.svg" alt="Illustrazione: una bacchetta da direttore e una piantina che nasce da una nota sul pentagramma" loading="lazy" style="aspect-ratio:920/520">
+      <blockquote class="quote">«Era una persona straordinaria, capace di entrare nei luoghi con discrezione e lasciarvi una luce.»<small>Edoardo Ruggiero, presidente di DANIcoop Gustarosso, a Piantalo 2026 (Puntoagronews, 21 maggio 2026)</small></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- Fofò Ferriere -->
+<section class="gr-sec cream" id="fofo">
+  <div class="gr-container split">
+    <div><img class="pic ill" src="img/ill-fofo.svg" alt="Illustrazione: la pentola di coccio che sobbolle adagio, con il pane intinto" loading="lazy" style="aspect-ratio:920/540"></div>
+    <div>
+      <span class="gr-sub">Il Maestro del pomodoro</span>
+      <h2>Fofò Ferriere, <em>l’uomo che sussurrava ai pomodori</em></h2>
+      <p class="lead">Raffaele Ferriere, per tutti Fofò: gastronomo, ristoratore, narratore del gusto vesuviano. Se n’è andato nel luglio 2026.</p>
+      <p>Con i fratelli Ciro e Salvatore aveva fondato a San Giorgio a Cremano il Tallioo. Era tra i massimi esperti e divulgatori dell’antico pomodoro di Napoli e del San Marzano, e aveva sperimentato la musica nei campi e nella trasformazione con il metodo Freman.</p>
+      <p>Da un suo consiglio nasce il nome dell’Adagio di Fofò: la passata, diceva, vuole una bollitura lenta e costante, quasi un adagio. E mentre il sugo cuoce, c’è il pane da intingere che lui chiamava «l’attesa». Le ricette con la sua passata sono dedicate a lui.</p>
+      <p class="cite">Fonti: Il Mattino e NapoliToday, 12 luglio 2026; Di Testa e Di Gola, 13 luglio 2026; Piaceri della Vita, 2020.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Gli Orti della Musica -->
+<section class="gr-sec" id="orti">
+  <div class="gr-container split">
+    <div>
+      <img class="pic ill" src="img/ill-orti.svg" alt="Illustrazione: i filari degli Orti della Musica come righe di un pentagramma, con il Vesuvio sullo sfondo" loading="lazy" style="aspect-ratio:920/600">
+      <div class="btns"><a class="gr-btn black" href="https://www.google.com/maps/search/?api=1&amp;query=Gli+Orti+della+Musica+via+Cimitero+Vecchio+26+Sarno" target="_blank" rel="noopener">Come arrivare agli Orti <span class="arr"></span></a></div>
+    </div>
+    <div>
+      <span class="gr-sub on-white">Il luogo</span>
+      <h2>Gli Orti <em>della Musica</em></h2>
+      <p>In via Cimitero Vecchio 26, a Sarno, un parco armonico naturale ricrea la macchia mediterranea. Qui il suono è parte della coltivazione: un impianto di diffusione, con altoparlanti anche nel terreno, porta alle piante, dalle foglie alle radici, frequenze armonico-naturali, suoni della natura organizzati secondo i rapporti degli armonici naturali. Chi visita gli Orti può ascoltare anche la musica classica: Mozart, Beethoven, Chopin.</p>
+      <div class="facts">
+        <div><b>2024</b><span>Il Pomodoro San Marzano Day si tiene agli Orti, con il Maestro Vessicchio tra i relatori.</span></div>
+        <div><b>2026</b><span><i>Piantalo</i>, il trapianto del San Marzano DOP con le scuole, è dedicato al Maestro.</span></div>
+        <div><b>Visite</b><span>Campi e cooperativa su prenotazione, per singoli e gruppi.</span></div>
+      </div>
+      <img class="orti-logo" src="img/logo-orti-della-musica.svg" alt="Gli Orti della Musica" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- Le frequenze -->
+<section class="gr-sec dark" id="frequenze">
+  <div class="gr-container split top">
+    <div>
+      <span class="gr-sub">Il suono</span>
+      <h2>Che cosa sono le frequenze <em>armonico-naturali</em></h2>
+      <p>Quando una corda vibra non produce una sola nota: vibra intera e, insieme, in due metà, in tre terzi, in quattro quarti. Nascono frequenze che sono multipli esatti della prima: gli armonici naturali. La musica «armonico-naturale» del Maestro Vessicchio rispetta questi rapporti, quelli che gli strumenti a intonazione naturale seguivano prima del temperamento equabile.</p>
+    </div>
+    <div>
+      <h3>E la musica fa davvero crescere meglio i pomodori?</h3>
+      <p>Che le piante reagiscano ai suoni è un campo di ricerca serio, ma ancora agli inizi: nessuno studio permette oggi di dire che la musica renda un pomodoro più sano o più digeribile, e noi non lo diciamo. Possiamo dire con certezza che agli Orti le piante crescono in un luogo curato e osservato ogni giorno, e vengono raccolte a mano. E questo si sente nel piatto.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Il ricettario -->
+<section class="gr-sec" id="ricettario">
+  <div class="gr-container book">
+    <a href="ricettario-bottiglie-da-maestro.pdf" target="_blank" rel="noopener" aria-label="Apri il ricettario in PDF"><img class="cov" src="img/copertina-ricettario.jpg" alt="Copertina del ricettario Bottiglie da Maestro, con il contributo del Maestro Franco Pepe" width="740" height="1048" loading="lazy"></a>
+    <div>
+      <span class="gr-sub on-white">Il ricettario</span>
+      <h2>52 pagine di <em>storie, scienza e spartiti</em></h2>
+      <p>La storia dei due Maestri e degli Orti, le frequenze armonico-naturali, la chimica del pomodoro, le schede delle tre passate, dodici ricette impaginate come spartiti, la «cadenza» firmata dal Maestro Franco Pepe, il manuale d’uso e una legenda su che cosa succede al pomodoro, ora dopo ora, mentre cuoce. Un libro da tenere in cucina tutto l’anno: da sfogliare sul telefono o da stampare in A5.</p>
+      <div class="btns"><a class="gr-btn red" href="ricettario-bottiglie-da-maestro.pdf" download>Scarica il ricettario</a><a class="gr-btn line" href="ricettario-bottiglie-da-maestro.pdf" target="_blank" rel="noopener">Sfoglialo online</a></div>
+      <p class="small" style="margin-top:14px">PDF gratuito · formato A5 · 52 pagine</p>
+    </div>
+  </div>
+</section>
+
+<!-- Com'è fatto il libro -->
+<section class="gr-sec cream" id="dentro">
+  <div class="gr-container">
+    <span class="gr-sub">Dentro il libro</span>
+    <h2>Com’è <em>fatto</em></h2>
+    <div class="dentro">
+      <div>
+<ol class="capitoli">
+<li><b>Preludio</b><span>Ouverture e istruzioni di lettura<small>Perché un ricettario scritto come una partitura.</small></span></li>
+<li><b>I Maestri</b><span>Peppe Vessicchio e Fofò Ferriere<small>Le pagine dedicate ai due Maestri, con le fonti.</small></span></li>
+<li><b>Il luogo</b><span>Gli Orti della Musica e le frequenze armonico-naturali<small>Che cosa ascoltano le piante, e che cosa sappiamo davvero.</small></span></li>
+<li><b>La scienza</b><span>Che cosa c’è in una bottiglia rossa<small>Licopene, glutammato, zuccheri e acidi, spiegati senza miracoli.</small></span></li>
+<li><b>Le passate</b><span>Mommò, Adagio di Fofò e Piccerillo<small>Una scheda per ogni bottiglia: varietà, carattere, usi, tempi.</small></span></li>
+<li><b>Dodici spartiti</b><span>Le ricette<small>Organico, esecuzione, il perché scientifico e un brano da ascoltare.</small></span></li>
+<li><b>Cadenza</b><span>La ricetta del Maestro Franco Pepe<small>Il momento del solista, scritto per questo libro.</small></span></li>
+<li><b>Coda</b><span>Manuale d’uso, le ore del pomodoro, ascolti e fonti<small>Che cosa succede nella pentola, minuto dopo minuto.</small></span></li>
+</ol>
+      </div>
+      <div class="prev">
+        <figure><img src="img/anteprima-spartito.jpg" alt="Due pagine del ricettario: la ricetta degli spaghetti al pomodoro impaginata su pentagrammi" loading="lazy" width="1400" height="987"><figcaption>Ogni ricetta è uno spartito: a sinistra l’organico, a destra l’esecuzione.</figcaption></figure>
+        <div class="prev2">
+          <figure><img src="img/anteprima-indice.jpg" alt="L’indice del ricettario" loading="lazy" width="700" height="991"><figcaption>L’indice.</figcaption></figure>
+          <figure><img src="img/anteprima-ore.jpg" alt="La legenda Le ore del pomodoro" loading="lazy" width="700" height="991"><figcaption>Le ore del pomodoro.</figcaption></figure>
+        </div>
+        <figure><img src="img/anteprima-maestro.jpg" alt="Due pagine del ricettario dedicate a Peppe Vessicchio" loading="lazy" width="1400" height="987"><figcaption>Le pagine dedicate al Maestro Vessicchio.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Franco Pepe -->
+<section class="gr-sec dark" id="pepe">
+  <div class="gr-container split">
+    <div>
+      <span class="gr-sub">Cadenza · Ospite d’onore</span>
+      <div class="ospite"><small>Con il contributo del Maestro</small><b>Franco Pepe</b></div>
+      <p class="lead">Nei concerti, la cadenza è il momento in cui l’orchestra tace e il solista suona da solo, a modo suo. Nel nostro ricettario la cadenza è sua.</p>
+      <p>Nato a Caiazzo nel 1963, è la terza generazione di una famiglia di panettieri e pizzaioli: la storia comincia nel 1938 con il nonno Ciccio. Nel 2012 ha aperto Pepe in Grani in un palazzo del Settecento nel centro storico di Caiazzo. È Maestro d’Arte e Mestiere dal 2018 e Cavaliere al merito della Repubblica dal 2019.</p>
+      <p>Per le Passate da Maestro ha scritto una ricetta: la trovate nel ricettario, alla pagina della Cadenza.</p>
+      <div class="btns"><a class="gr-btn red" href="ricettario-bottiglie-da-maestro.pdf" target="_blank" rel="noopener">Leggi la sua ricetta</a><a class="gr-btn line" href="https://www.pepeingrani.it/" target="_blank" rel="noopener">Pepe in Grani <span class="arr"></span></a></div>
+    </div>
+    <div><img class="pic ill" src="img/ill-scena_mommo.svg" alt="Illustrazione: la bottiglia di Mommò tra pomodori e basilico" loading="lazy" style="aspect-ratio:920/560"></div>
+  </div>
+</section>
+
+<!-- Fascia CTA -->
+<section class="gr-cta" id="scarica">
+  <div class="gr-container">
+    <div><h2>Il ricettario <em>è gratuito</em></h2><p>Cinquantadue pagine da tenere in cucina tutto l’anno: scaricatelo sul telefono o stampatelo in A5.</p></div>
+    <div class="btns"><a class="gr-btn black" href="ricettario-bottiglie-da-maestro.pdf" download>Scarica il PDF</a><a class="gr-btn line" href="ricettario-bottiglie-da-maestro.pdf" target="_blank" rel="noopener">Sfoglialo online</a></div>
+  </div>
+</section>
+
+<!-- Le dodici ricette -->
+<section class="gr-sec cream" id="ricette">
+  <div class="gr-container">
+    <div class="center narrow" style="margin-bottom:44px">
+      <span class="gr-sub on-white">Dodici spartiti</span>
+      <h2>Dodici modi di <em>farla suonare</em></h2>
+      <p>Apri una ricetta per vedere organico, esecuzione, il perché scientifico e il brano da ascoltare mentre cuoce.</p>
+    </div>
+<details class="rc"><summary><span class="tag">Mommò</span><span class="rt">Spaghetti al pomodoro, come si deve</span><span class="rm"><i>Allegro</i> · 25 minuti</span></summary>
+<div class="rb"><p class="rsub">La partitura più semplice è anche la più spietata: ogni nota stonata si sente.</p><p class="small">Per 4 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>320 g</b> spaghetti di grano duro</li><li><b>1 bottiglia</b> di Mommò (400 g)</li><li><b>1</b> spicchio d’aglio in camicia</li><li><b>4 cucchiai</b> olio extravergine</li><li>olio extravergine a crudo</li><li>basilico fresco</li><li>sale</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Scalda l’olio a fuoco dolce con lo spicchio d’aglio appena schiacciato: deve profumare, non dorare.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Versa la passata, porta a un bollore leggero e lascia sobbollire 8–10 minuti. Il sale va alla fine: la riduzione concentra anche quello.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Togli l’aglio. Scola la pasta due minuti prima del tempo indicato e finisci la cottura in padella con un mestolino della sua acqua.</span></li><li><span class="nh" aria-hidden="true">4</span><span>A fuoco spento: basilico spezzato a mano e un filo d’olio crudo. In tavola subito, senza aspettare nessuno.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>L’amido rilasciato nell’acqua di cottura lega acqua e grassi in un’emulsione: è questa, e non la panna, a rendere il sugo vellutato e aderente. L’olio crudo aggiunto alla fine conserva i composti aromatici più volatili, che il calore disperderebbe.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> W. A. Mozart, <i>Eine kleine Nachtmusik</i> K 525, I. Allegro</p></div></details>
+<details class="rc"><summary><span class="tag">Mommò</span><span class="rt">Uova in purgatorio</span><span class="rm"><i>Allegro</i> · 25 minuti</span></summary>
+<div class="rb"><p class="rsub">Il piatto delle sere in cui in casa «non c’è niente». Che poi vuol dire: c’è l’essenziale.</p><p class="small">Per 4 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>1 bottiglia</b> di Mommò (400 g)</li><li><b>8</b> uova freschissime</li><li><b>1</b> cipollotto</li><li><b>1</b> peperoncino (facoltativo)</li><li><b>3 cucchiai</b> olio extravergine</li><li>pecorino grattugiato, prezzemolo</li><li>pane casereccio tostato</li><li>sale</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>In una padella larga fai appassire il cipollotto affettato nell’olio, con il peperoncino.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Aggiungi la passata, sala e lascia cuocere 10 minuti a fuoco medio-basso.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Con il dorso di un cucchiaio crea otto piccoli incavi e rompi un uovo in ciascuno. Sala appena l’albume.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Copri e cuoci 6–8 minuti: l’albume deve rapprendersi, il tuorlo restare morbido. Pecorino, prezzemolo e pane accanto.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Albume e tuorlo coagulano a temperature diverse: le proteine dell’albume iniziano a rapprendersi poco sopra i 60 °C, il tuorlo attorno ai 65–70 °C. Il coperchio crea vapore e cuoce la superficie senza girare le uova: per questo il tuorlo resta cremoso.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> G. Rossini, <i>Il barbiere di Siviglia</i>, Sinfonia</p></div></details>
+<details class="rc"><summary><span class="tag">Mommò</span><span class="rt">Pizza in teglia della domenica</span><span class="rm"><i>Largo</i> · 24 ore di riposo</span></summary>
+<div class="rb"><p class="rsub">Si impasta il sabato sera, si sforna la domenica a mezzogiorno. La pazienza è l’ingrediente che non si compra.</p><p class="small">Per 1 teglia 30×40 cm</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>500 g</b> farina tipo 0 (W 260–280)</li><li><b>350 g</b> acqua fredda</li><li><b>2 g</b> lievito di birra secco</li><li><b>12 g</b> sale</li><li>olio per la teglia</li><li><b>15 g</b> olio extravergine</li><li><b>1 bottiglia</b> di Mommò (400 g)</li><li><b>250 g</b> fior di latte sgocciolato</li><li>basilico, origano</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Sciogli il lievito in quasi tutta l’acqua, aggiungi la farina e impasta. Unisci il sale con l’acqua rimasta, poi l’olio, e lavora finché l’impasto è liscio.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Copri e lascia in frigorifero 18–24 ore. Due ore prima di cuocere stendilo con le dita nella teglia unta, senza schiacciare tutte le bolle.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Condisci a crudo la passata con sale e un filo d’olio e distribuiscila. Cuoci nel ripiano basso del forno al massimo (250 °C) per 10 minuti.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Aggiungi il fior di latte a pezzi e cuoci altri 5–7 minuti. Il basilico, solo all’uscita.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Nel lungo riposo al freddo gli enzimi della farina spezzano parte dell’amido in zuccheri semplici: più sapore, più colore in cottura (reazione di Maillard) e un impasto più facile da stendere. Il fior di latte va a metà cottura: a 250 °C per un quarto d’ora si separerebbe in acqua e grasso.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> J. S. Bach, Suite per orchestra n. 3, BWV 1068, Aria</p></div></details>
+<details class="rc"><summary><span class="tag">Mommò</span><span class="rt">Montanare della festa</span><span class="rm"><i>Allegro</i> · 30 minuti</span></summary>
+<div class="rb"><p class="rsub">Pizzette fritte, gonfie come un applauso, con il sugo e una pioggia di formaggio.</p><p class="small">Per 12 montanare</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>500 g</b> impasto per pizza già lievitato</li><li><b>1 bottiglia</b> di Mommò (400 g)</li><li><b>2 cucchiai</b> olio extravergine</li><li><b>60 g</b> Parmigiano Reggiano grattugiato</li><li>basilico</li><li>olio di arachide per friggere</li><li>sale</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Cuoci la passata con l’olio e un pizzico di sale per 10 minuti: deve restare morbida, non asciutta.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Dividi l’impasto in 12 palline e allargale con le dita in dischi di circa 10 cm, appena più sottili al centro.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Friggi in olio di arachide a 170–175 °C, un disco alla volta, girandolo quando si gonfia: bastano 40–60 secondi per lato.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Scola su carta, completa con un cucchiaio di sugo, il formaggio e una foglia di basilico. Si mangiano caldissime.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>A contatto con l’olio caldo l’acqua dell’impasto evapora di colpo e il vapore gonfia il disco, mentre la superficie si sigilla e dora. La temperatura conta: troppo bassa, l’impasto assorbe olio; troppo alta, fuori brucia e dentro resta crudo.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> G. Rossini, <i>La gazza ladra</i>, Sinfonia</p></div></details>
+<details class="rc"><summary><span class="tag">Adagio di Fofò</span><span class="rt">Il ragù della domenica</span><span class="rm"><i>Largo</i> · 6 ore</span></summary>
+<div class="rb"><p class="rsub">Non si cucina: si sorveglia. Il sugo deve «pippiare», cioè sobbollire con un filo di bolle pigre.</p><p class="small">Per 6 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>2 bottiglie</b> di Adagio di Fofò (680 g)</li><li><b>600 g</b> muscolo di manzo</li><li><b>400 g</b> tracchiolelle di maiale</li><li><b>4</b> braciole arrotolate</li><li><b>1</b> cipolla ramata grande</li><li><b>100 ml</b> vino rosso</li><li><b>5 cucchiai</b> olio extravergine</li><li>sale</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>In una casseruola dal fondo spesso rosola la carne pochi pezzi alla volta, finché è ben colorata su ogni lato. Tienila da parte.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Nello stesso fondo fai appassire la cipolla tritata finissima, rimetti la carne, sfuma con il vino e lascia evaporare.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Aggiungi la passata e mezzo bicchiere d’acqua. Porta al bollore, poi abbassa al minimo: coperchio di sbieco, una mescolata ogni mezz’ora.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Dopo 5–6 ore il sugo è scuro e lucido, l’olio affiora ai bordi. Sala alla fine. Il sugo va sugli ziti spezzati a mano; la carne è il secondo.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Il colore e la profondità del ragù nascono due volte: nella rosolatura, con la reazione di Maillard tra zuccheri e amminoacidi; poi nella cottura lunga, quando il collagene dei tagli “poveri” si trasforma lentamente in gelatina. È la gelatina, non la fretta, a dare corpo al sugo.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> W. A. Mozart, Concerto per pianoforte n. 21, K 467, II. Andante</p><p class="nota">Il pane casereccio intinto nel sugo mentre cuoce Fofò Ferriere lo chiamava «l’attesa». È consentito. Anzi, è previsto.</p></div></details>
+<details class="rc"><summary><span class="tag">Adagio di Fofò</span><span class="rt">Parmigiana di melanzane</span><span class="rm"><i>Adagio</i> · 2 ore e riposo</span></summary>
+<div class="rb"><p class="rsub">Fritta, stratificata, dimenticata in forno. Il giorno dopo è ancora più buona, e non è un modo di dire.</p><p class="small">Per 6 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>1,2 kg</b> melanzane lunghe</li><li><b>1 bottiglia</b> di Adagio di Fofò (680 g)</li><li><b>300 g</b> fior di latte sgocciolato</li><li><b>80 g</b> Parmigiano Reggiano</li><li><b>1</b> spicchio d’aglio, basilico</li><li>olio di arachide per friggere</li><li>olio extravergine, sale</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Affetta le melanzane per il lungo (5 mm), salale e lasciale in un colapasta 30 minuti; poi asciugale bene.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Friggile in olio di arachide a 170–175 °C finché sono dorate e scolale su carta.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Intanto cuoci la passata con olio e aglio per 20–25 minuti, salala e profumala di basilico a fuoco spento.</span></li><li><span class="nh" aria-hidden="true">4</span><span>In una pirofila alterna sugo, melanzane, fior di latte, parmigiano e basilico; chiudi con sugo e parmigiano. Forno a 180 °C per 35–40 minuti, poi almeno mezz’ora di riposo.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Il sale estrae per osmosi parte dell’acqua dalla polpa spugnosa della melanzana, che così assorbe meno olio in frittura. Il riposo finale non è superstizione: raffreddandosi, formaggio e succhi si rassodano e la parmigiana si taglia a strati netti invece di franare.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> L. van Beethoven, Sonata n. 14 «Al chiaro di luna», I. Adagio sostenuto</p></div></details>
+<details class="rc"><summary><span class="tag">Adagio di Fofò</span><span class="rt">Polpette al sugo</span><span class="rm"><i>Andante</i> · 1 ora e un quarto</span></summary>
+<div class="rb"><p class="rsub">Morbide dentro, colorite fuori e poi lasciate a sobbollire nel rosso.</p><p class="small">Per 4 persone (16 polpette)</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>500 g</b> macinato misto manzo e maiale</li><li><b>100 g</b> pane raffermo senza crosta</li><li><b>100 ml</b> latte</li><li><b>1</b> uovo</li><li><b>50 g</b> Parmigiano Reggiano</li><li>prezzemolo, sale, pepe</li><li><b>1 bottiglia</b> di Adagio di Fofò (680 g)</li><li>olio extravergine</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Ammolla il pane nel latte, strizzalo e uniscilo a carne, uovo, formaggio, prezzemolo, sale e pepe. Impasta solo il tempo necessario.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Forma polpette da circa 50 g con le mani bagnate e rosolale in padella con poco olio finché sono colorite.</span></li><li><span class="nh" aria-hidden="true">3</span><span>In una casseruola porta a bollore la passata con un filo d’olio, immergi le polpette e cuoci a fuoco basso, coperto, per 40 minuti.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Lascia riposare dieci minuti prima di servire.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Il pane ammollato fa da spugna: trattiene i succhi che la carne perde quando le sue proteine si contraggono col calore. È la differenza tra una polpetta morbida e una pallina da tennis. Impastare troppo, invece, sviluppa una rete proteica compatta e gommosa.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> F. Chopin, Notturno op. 9 n. 2</p></div></details>
+<details class="rc"><summary><span class="tag">Adagio di Fofò</span><span class="rt">Pane, passata e attesa</span><span class="rm"><i>Andante</i> · 30 minuti</span></summary>
+<div class="rb"><p class="rsub">Il pane intinto mentre il sugo cuoce: Fofò Ferriere lo chiamava così.</p><p class="small">Per 4 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>4</b> fette spesse di pane casereccio raffermo</li><li><b>½ bottiglia</b> di Adagio di Fofò (340 g)</li><li><b>1</b> spicchio d’aglio</li><li>olio extravergine</li><li>origano, sale</li><li>caciocavallo a scaglie (facoltativo)</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Fai sobbollire la passata con olio e un pizzico di sale per 20 minuti, finché è densa.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Tosta il pane sulla piastra e strofinalo appena con l’aglio.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Adagia le fette in un piatto fondo, coprile di sugo caldo e lasciale riposare due minuti perché si impregnino.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Olio crudo, origano e, se vuoi, una scaglia di caciocavallo.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Il pane raffermo ha subito la retrogradazione dell’amido: le sue molecole si sono riorganizzate e hanno espulso acqua. Proprio per questo assorbe il sugo senza sfaldarsi, dove il pane fresco diventerebbe una pappa.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> E. Di Capua, G. Capurro, <i>’O sole mio</i> (1898)</p></div></details>
+<details class="rc"><summary><span class="tag">Piccerillo</span><span class="rt">Spaghetti alle vongole fujute</span><span class="rm"><i>Allegro</i> · 20 minuti</span></summary>
+<div class="rb"><p class="rsub">Le vongole sono «fuggite»: resta il profumo di mare. È la cucina napoletana dell’ingegno.</p><p class="small">Per 4 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>320 g</b> spaghetti o vermicelli</li><li><b>1 bottiglia</b> di Piccerillo (400 g)</li><li><b>2</b> spicchi d’aglio</li><li><b>1</b> peperoncino</li><li>un mazzetto di prezzemolo</li><li><b>5 cucchiai</b> olio extravergine</li><li>sale</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Scalda l’olio con l’aglio a fettine e il peperoncino, a fuoco dolce.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Aggiungi la passata e cuoci a fiamma vivace 6–8 minuti: deve restare viva e brillante.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Scola la pasta molto al dente e saltala nel sugo con un po’ della sua acqua.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Abbondante prezzemolo tritato a fuoco spento e un filo d’olio crudo.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Perché, senza vongole, «sa di mare»? Suggestione e chimica insieme: aglio, prezzemolo e olio sono gli stessi aromi del piatto con le vongole, e il pomodoro maturo è naturalmente ricco di glutammato libero, la molecola del gusto umami. Il cervello completa il resto.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> A. Vivaldi, <i>Le quattro stagioni</i>, «L’estate», III. Presto</p></div></details>
+<details class="rc"><summary><span class="tag">Piccerillo</span><span class="rt">Baccalà in cassuola</span><span class="rm"><i>Andante</i> · 40 minuti</span></summary>
+<div class="rb"><p class="rsub">A Napoli il baccalà non si discute: si cucina piano, in un tegame largo, e si serve con il pane.</p><p class="small">Per 4 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>800 g</b> baccalà ammollato e dissalato</li><li><b>1 bottiglia</b> di Piccerillo (400 g)</li><li><b>80 g</b> olive nere di Gaeta</li><li><b>1 cucchiaio</b> capperi dissalati</li><li><b>2</b> spicchi d’aglio</li><li>prezzemolo</li><li><b>4 cucchiai</b> olio extravergine</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Taglia il baccalà a tranci, togli le spine e asciugalo bene. Se vuoi, infarinalo appena.</span></li><li><span class="nh" aria-hidden="true">2</span><span>In un tegame largo scalda olio e aglio, aggiungi olive e capperi e lascia insaporire un minuto.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Versa la passata, cuoci 10 minuti, poi adagia il baccalà con la pelle verso il basso.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Cuoci coperto a fuoco dolce 12–15 minuti senza girarlo: ruota il tegame invece di mescolare. Finisci con il prezzemolo e assaggia prima di salare.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Il baccalà è merluzzo conservato sotto sale: l’ammollo in acqua fredda, cambiata spesso, lo fa uscire per diffusione. Ecco perché il sale si aggiunge solo dopo l’assaggio: la quantità che resta nella carne cambia ogni volta.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> A. Corelli, Concerto grosso op. 6 n. 4, Adagio</p></div></details>
+<details class="rc"><summary><span class="tag">Piccerillo</span><span class="rt">Gnocchi alla sorrentina</span><span class="rm"><i>Andante</i> · 1 ora e un quarto</span></summary>
+<div class="rb"><p class="rsub">Il piatto che filava prima che i formaggi filanti diventassero una moda.</p><p class="small">Per 4 persone</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>800 g</b> patate farinose</li><li><b>220–250 g</b> farina 00</li><li><b>1</b> tuorlo (facoltativo)</li><li><b>1 bottiglia</b> di Piccerillo (400 g)</li><li><b>250 g</b> fior di latte sgocciolato</li><li><b>50 g</b> Parmigiano Reggiano</li><li>basilico, aglio, olio extravergine, sale</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Lessa le patate con la buccia, sbucciale calde e schiacciale. Sulla spianatoia unisci farina, tuorlo e un pizzico di sale, lavorando il meno possibile.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Forma dei cilindri, taglia gli gnocchi e infarinali.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Cuoci la passata con olio e aglio per 10 minuti. Lessa gli gnocchi, scolali appena tornano a galla e condiscili.</span></li><li><span class="nh" aria-hidden="true">4</span><span>In pirofile monoporzione alterna gnocchi, fior di latte a cubetti, basilico e parmigiano. Gratina a 220 °C per 8–10 minuti.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Le patate farinose hanno più amido e meno acqua: assorbono meno farina e danno gnocchi più leggeri. Lavorare a lungo l’impasto, al contrario, sviluppa il glutine della farina e rende gli gnocchi duri.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> P. I. Čajkovskij, <i>Lo schiaccianoci</i>, Valzer dei fiori</p></div></details>
+<details class="rc"><summary><span class="tag">Mommò</span><span class="rt">Il brindisi da Maestro</span><span class="rm"><i>Presto</i> · 10 minuti</span></summary>
+<div class="rb"><p class="rsub">Un aperitivo analcolico, rosso e serio, da servire freddo in coppa. Anche il pomodoro ha diritto a un brindisi.</p><p class="small">Per 4 coppe</p>
+<div class="rgrid"><div><h4>Organico</h4><ul class="org"><li><b>1 bottiglia</b> di Mommò (400 g) ben fredda</li><li><b>100 ml</b> acqua frizzante fredda</li><li>il succo di <b>½</b> limone</li><li><b>1</b> piccola costa di sedano</li><li>sale fino, pepe nero</li><li>olio extravergine, basilico</li></ul></div><div><h4>Esecuzione</h4><ol class="exe"><li><span class="nh" aria-hidden="true">1</span><span>Frulla la passata con il sedano, il succo di limone, un pizzico di sale e una macinata di pepe. Filtra con un colino fine.</span></li><li><span class="nh" aria-hidden="true">2</span><span>Tieni in frigorifero almeno un’ora, insieme alle coppe.</span></li><li><span class="nh" aria-hidden="true">3</span><span>Al momento di servire allunga con l’acqua frizzante, mescola appena e versa.</span></li><li><span class="nh" aria-hidden="true">4</span><span>Una goccia d’olio e una fogliolina di basilico. Alla salute del Maestro.</span></li></ol></div></div>
+<div class="sci"><h4>Perché funziona</h4><p>Freddo, acido e sale cambiano la percezione. Il sale attenua l’amaro e fa emergere dolcezza e umami; il limone accende il sapore; il freddo smorza la dolcezza e rende tutto più asciutto. L’acqua frizzante aggiunge la puntura dell’anidride carbonica: il brindisi c’è, l’alcol no.</p></div>
+<p class="asc"><span aria-hidden="true">♫</span> <b>Consiglio d’ascolto:</b> G. Verdi, <i>La traviata</i>, «Libiam ne’ lieti calici»</p></div></details>
+    <p class="small" style="margin-top:20px">E una cadenza: <a href="#pepe">la ricetta del Maestro Franco Pepe</a>, nel ricettario.</p>
+  </div>
+</section>
+
+<!-- Foto e video -->
+<section class="gr-sec" id="galleria">
+  <div class="gr-container">
+    <div class="split">
+      <div class="vid"><iframe src="https://www.dailymotion.com/embed/video/x8rpszs" title="San Marzano Tomatoes: Gustarosso raccontato da Eater" allow="fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+      <div>
+        <span class="gr-sub on-white">Foto e video</span>
+        <h2>Dai campi <em>alla tavola</em></h2>
+        <p class="lead">Dal campo alla latta: il racconto girato da Eater a Sarno, tra i nostri campi e la nostra lavorazione.</p>
+        <p class="small">Video in inglese, circa 11 minuti.</p>
+      </div>
+    </div>
+    <div class="gal">
+      <figure><img src="img/confezioni.jpg" alt="Le confezioni Passata da Maestro, pronte in negozio" loading="lazy"><figcaption>Le confezioni, pronte in negozio</figcaption></figure>
+      <figure><img src="img/confezione-regalo.jpg" alt="La confezione regalo con il fiocco rosso" loading="lazy"><figcaption>La confezione regalo</figcaption></figure>
+      <figure><img class="ill" src="img/ill-scena_adagio.svg" alt="Illustrazione: l’Adagio di Fofò tra pomodori e basilico" loading="lazy" style="background:var(--gr-cream)"><figcaption>Adagio di Fofò, il fuoco lento</figcaption></figure>
+      <figure><img class="ill" src="img/ill-scena_piccerillo.svg" alt="Illustrazione: Piccerillo tra pomodori lunghi e pomodorini" loading="lazy" style="background:var(--gr-cream)"><figcaption>Piccerillo, il Rondò</figcaption></figure>
+      <figure><img class="ill" src="img/ill-ragu.svg" alt="Illustrazione: il ragù che sobbolle con il pane per l’attesa" loading="lazy" style="background:var(--gr-cream)"><figcaption>Il ragù della domenica</figcaption></figure>
+      <figure><img class="ill" src="img/ill-fujute.svg" alt="Illustrazione: spaghetti e vongole che scappano dal piatto" loading="lazy" style="background:var(--gr-cream)"><figcaption>Le vongole fujute</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- Rassegna stampa -->
+<section class="gr-sec" id="stampa" style="padding-top:0">
+  <div class="gr-container">
+    <div class="center narrow">
+      <span class="gr-sub on-white">Rassegna stampa</span>
+      <h2>Hanno <em>scritto</em></h2>
+    </div>
+<div class="prs"><a class="pr" href="https://www.gamberorosso.it/notizie/attualita/ricordi-peppe-vessicchio-notti-sanremo-verticali-barolo/" target="_blank" rel="noopener"><span class="src">Gambero Rosso</span><span class="prt">I ricordi di Peppe Vessicchio: “Quelle notti a Sanremo passate a bere verticali di Barolo”</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://www.gamberorosso.it/attualita/beppe-vessicchio-sanremo/" target="_blank" rel="noopener"><span class="src">Gambero Rosso</span><span class="prt">Beppe Vessicchio a Sanremo: la seconda vita tra salse di pomodoro e vino fatto con la musica</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://www.scattidigusto.it/peppe-vessicchio-addio-al-grande-maestro-di-musica-vino-e-cibo" target="_blank" rel="noopener"><span class="src">Scatti di Gusto</span><span class="prt">Peppe Vessicchio, addio al grande Maestro di musica, vino e cibo</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://www.lucianopignataro.it/a/in-ricordo-di-peppe-vessicchio/283585/" target="_blank" rel="noopener"><span class="src">lucianopignataro.it</span><span class="prt">Marco Contursi, In ricordo di Peppe Vessicchio</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://www.ilsole24ore.com/art/pomodoro-gustarosso-e-battaglia-san-marzano-puro-contro-imitazioni-AEDn5pIC" target="_blank" rel="noopener"><span class="src">Il Sole 24 Ore</span><span class="prt">Pomodoro, Gustarosso e la battaglia del San Marzano “puro” contro le imitazioni</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://www.puntoagronews.it/cultura/item/96812-a-sarno-piantalo-2026-gustarosso-celebra-la-terra-e-dedica-un-murales-al-maestro-beppe-vessicchio-maestro-di-musica-cultura-e-vita.html" target="_blank" rel="noopener"><span class="src">Puntoagronews</span><span class="prt">“Piantalo 2026”: Gustarosso dedica un murales al Maestro Beppe Vessicchio</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://casertaweb.com/notizie/piantalo-2026-a-sarno-un-tributo-a-peppe-vessicchio-tra-pomodori-musica-soft-e-agricoltura-culturale/" target="_blank" rel="noopener"><span class="src">Casertaweb</span><span class="prt">“Piantalo 2026” a Sarno, un tributo a Peppe Vessicchio</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://www.napolitoday.it/attualita/morte-fofo-ferriere-maestro-pomodoro-tallioo.html" target="_blank" rel="noopener"><span class="src">NapoliToday</span><span class="prt">Addio a Fofò Ferriere, il maestro del pomodoro e fondatore del Tallioo</span><span class="go">Leggi l’articolo ↗</span></a>
+<a class="pr" href="https://www.ditestaedigola.com/addio-a-fofo-ferriere-luomo-che-sussurrava-ai-pomodori/" target="_blank" rel="noopener"><span class="src">Di Testa e Di Gola</span><span class="prt">Addio a Fofò Ferriere, l’uomo che sussurrava ai pomodori</span><span class="go">Leggi l’articolo ↗</span></a></div>
+  </div>
+</section>
+
+<!-- Da regalare -->
+<section class="gift" id="regala" style="background-image:url('img/confezione-regalo.jpg')">
+  <div class="gr-container">
+    <span class="gr-sub" style="background:rgba(255,255,255,.1);color:#fff">Da regalare</span>
+    <h2>Il brindisi più prezioso <em>è rosso</em></h2>
+    <p class="lead">Mommò, Adagio di Fofò e Piccerillo insieme, in confezione regalo: sullo shop online o nel nostro negozio di via Ingegno 32 bis, a Sarno.</p>
+    <div class="btns" style="justify-content:center"><a class="gr-btn red" href="https://shop.gustarosso.it/" target="_blank" rel="noopener">Acquista sullo shop</a><a class="gr-btn line" style="border-color:rgba(255,255,255,.6);color:#fff" href="https://www.google.com/maps/search/?api=1&amp;query=Gustarosso+via+Ingegno+32+bis+Sarno" target="_blank" rel="noopener">Vieni in negozio <span class="arr"></span></a></div>
+  </div>
+</section>
+
+</div>
+
+</main>
+
+<!-- ===== Piè di pagina essenziale, nessun menu ===== -->
+<footer class="gr-foot">
+  <div class="in">
+    <div class="brand">
+      <img src="img/logo-gustarosso-bianco.svg" alt="Gustarosso">
+      <p>Pomodoro San Marzano e passate della cooperativa agricola di Sarno.</p>
+      <div class="soc"><a href="https://facebook.com/159817604228489" aria-label="Facebook">f</a><a href="https://instagram.com/gustarosso" aria-label="Instagram">ig</a><a href="https://youtube.com/channel/UCIGTFYhFOZb9HHNvM7ZHqYQ" aria-label="YouTube">yt</a></div>
+    </div>
+    <div><h5>Contatti</h5><ul>
+      <li>Via Ingegno, 50<br>84087 Sarno (SA)</li>
+      <li><a href="tel:+39081944898">+39 081 944898</a></li>
+      <li><a href="mailto:info@gustarosso.it">info@gustarosso.it</a></li></ul></div>
+  </div>
+  <div class="bot"><div class="in2"><span>© 2024 Dani Coop. Soc. Coop. Agricola P.IVA: 03566170654</span><span>Credit: <a href="https://www.cmadvisor.it">Cm Advisor</a></span></div></div>
+</footer>
+</body>
+</html>
